@@ -1,0 +1,138 @@
+/* made for google search results page */
+
+/* HEADER CSS */
+.top-bar {
+    position: sticky;
+    top: 0px;
+    display: grid;
+    background-color: pink;
+    grid-template-columns: 15% minmax(150px,48%) auto 150px;
+}
+.header-logo {
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
+.search-bar {
+    grid-column: 2/3;
+    background-color: white;
+    align-self: center;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 75%;
+    width: 100%;
+}
+.search-bar:hover {
+    box-shadow: 2px 2px 10px;
+}
+.search-form {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 100%;
+    padding: 0% 2%;
+}
+.search-input {
+    width: 85%;
+    border: none;
+}
+.search-button {
+    width: 5%;
+    height: 28px;
+    border: none;
+    color: transparent;
+    background-image: url('../images/glass.png');
+    background-size: cover;
+}
+.circle-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: end;
+    grid-column: 4/5;
+}
+.account-button {
+    grid-column: 2/3;
+}
+.apps-button {
+    grid-column: 1/2;
+}
+.circle { /* the buttons that are circles */
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+}
+.circle:hover {
+    background-color: gray;
+}
+.button-img {
+    position: relative;
+    top: 3px;
+    left: 4px;
+    border-radius: 50%;
+    max-width: 44px;
+    height: auto;
+}
+/* NAV BAR */
+.nav-bar {
+    background-color: green;;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 30px;
+    padding: 20px 0px 0px 0px;
+}
+.main-group {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 20px 0px 16%;
+}
+.options-group {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 10%;
+}
+.main-button {
+    background-color: greenyellow;
+}
+#all-button {
+    padding: 10px 18px 10px 18px;
+}
+.options-button {
+
+}
+.nav-button {
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+#more-button {
+    display: flex;
+    justify-content: row;
+    justify-items: space-evenly;
+}
+.nav-img {
+    padding: 1px 3px 0px 0px;
+    width: 15%;
+    height: 11px;
+}
+.unlink {
+    color: black;
+    text-decoration: none;
+}
+.separator {
+    border: 1px solid #bbb
+    
+}
+
+/* BODY CSS */
